@@ -29,21 +29,22 @@ sudo apt-get install python3-pykde4
 
 ### Once you have what you need
 
-- Install `webloccer.py` to a reasonable location, such as eg.
-  ```bash
-  install -m 755 webloccer.py /usr/local/bin/webloccer.py
-  ```
+Install `webloccer.py` to a reasonable location, eg.
+
+```bash
+install -m 755 webloccer.py /usr/local/bin/webloccer.py
+```
 
 If you want support from your file manager, then also do the following:
 
 - Open KDE *System Settings* and select *File Assocations*.
 
   ![FirstStepPic](http://213.239.219.185/webloccer/step_1.png)
-  
+
 - Press the *Add* button, set *Group* to `text` and enter `webloc` as *type name*.
 
   ![SecondStepPic](http://213.239.219.185/webloccer/step_2.png)
-  
+
 - Add `*.webloc` to filename patterns, then add the `webloccer.py` executable to the group that says *Application Preference Order*. Make sure it's all the way up.
 
   ![ThirdStepPic](http://213.239.219.185/webloccer/step_3.png)
